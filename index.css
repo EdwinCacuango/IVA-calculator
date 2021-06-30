@@ -1,0 +1,46 @@
+body{
+    font-family:'Roboto', sans-serif; 
+    color: #000;
+    font-size: 20px;
+    background:#feb683;
+    height: 100vh;
+}
+
+.general{
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+@media (max-width:375px) {
+    .general{
+         margin-top: 50%;
+    }  
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0.5rem;
+}
+h2{
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#restart{
+    background:#cf3147 ;
+}
+
+/* #change-percentage{
+    background: #0070aa;
+} */
